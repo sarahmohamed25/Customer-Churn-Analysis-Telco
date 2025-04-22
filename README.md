@@ -1,32 +1,31 @@
-# Customer-Churn-Analysis-Telco
-This project explores retail sales data to uncover trends and forecast future performance using time series analysis.
+# 📞 Customer Churn Analysis – Telecom Industry
+This project explores customer behavior in the telecom industry to identify churn drivers and build predictive models that help businesses proactively retain at-risk customers.
 
-Customer churn prediction and analysis project using Python, Machine Learning, and Visualization tools.
+## 📂 Project Highlights
+📊 Exploratory Data Analysis (EDA)
+-Churn distribution and breakdown by demographics & services
+-Correlation analysis of churn factors
+-Feature importance using Random Forest
+🤖 Machine Learning Modeling
+-Logistic Regression and Random Forest models
+-Confusion matrices to evaluate model accuracy
+-Achieved up to 81.76% accuracy with Logistic Regression
 
-## 📊 Project Overview
+---
 
-This project focuses on analyzing and predicting customer churn in the telecom industry using a real-world dataset. The goal is to uncover key factors driving churn and build models to predict whether a customer is likely to leave.
+## 📁 Files Included
+-Customer_Churn_Analysis_Telco.html – Code + Visuals (viewable in browser)
+-Customer_Churn_Analysis_Telco-PDF.pdf – Full Project Report
+-*.jpeg – Visuals (EDA charts, model performance, feature importance)
 
 ---
 
 ## 🔧 Tools & Technologies Used
-
 - **Python**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 - **Machine Learning**: Logistic Regression, Random Forest
 - **Visualization**: Correlation heatmaps, pie charts, bar plots
 - **IDE**: Jupyter Notebook
 - **Version Control**: Git & GitHub
-
----
-
-## 🧠 Key Objectives
-
-- Perform data cleaning and preprocessing
-- Explore data patterns and customer behavior
-- Visualize churn distribution and key influencing features
-- Build ML classification models to predict churn
-- Evaluate model performance using confusion matrix & accuracy score
-- Deliver insights with business recommendations
 
 ---
 
@@ -38,32 +37,21 @@ This project focuses on analyzing and predicting customer churn in the telecom i
 
 ---
 
-## 📂 Repository Contents
-
-| File Name | Description |
-| --------- | ----------- |
-| `Customer_Churn_Analysis_Telco.html` | Exported Jupyter Notebook with full analysis |
-| `Customer_Churn_Analysis_Telco-PDF.pdf` | PDF version of the report |
-| `*.jpeg` | Visualizations from the analysis |
-| `README.md` | Project overview and documentation |
-
----
-
-## 📌 Visual Highlights
-
-- **Churn Distribution Pie Chart**
-- **Correlation Heatmap**
-- **Feature Importance via Random Forest**
-- **Churn breakdowns by Contract, Payment Method, Partner, etc.**
-- **Confusion Matrices for both models**
-
----
-
 ## ✅ Insights & Takeaways
-
+- 26.5% of customers churned in the dataset
+- Features like Monthly Charges, Contract Type, and Tenure had the strongest correlation with churn
 - Customers with **month-to-month contracts** and **high monthly charges** are most likely to churn.
 - Long-tenured customers and those on **annual contracts** tend to stay longer.
 - Predictive models can help telecom companies proactively engage at-risk customers.
+
+---
+
+## 💡 Business Recommendations
+- Promote long-term contracts to reduce churn
+- Target customers with high monthly charges and short tenure
+- Enhance value-added services like Online Security and Tech Support
+- Promote more stable payment methods (e.g., bank auto-pay)
+- Use ML models to identify and retain at-risk customers proactively
 
 ---
 
